@@ -1,0 +1,241 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GlowMuse Beauty</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <nav class="navbar">
+
+    <div class="logo">GlowMuse</div>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  </nav>
+
+  <!-- Hero Section -->
+
+  <section class="hero" id="home">
+
+    <div class="hero-text">
+
+      <h1>Glow Naturally,<br> Shine Confidently</h1>
+
+      <p>
+        Discover skincare essentials crafted to nourish,
+        hydrate and elevate your natural beauty.
+      </p>
+
+      <button>Shop Now</button>
+
+    </div>
+
+    <div class="hero-image">
+
+      <img
+        src="C:\Users\kashi\Downloads\WhatsApp Image 2026-05-16 at 8.33.04 PM (2).jpeg"
+        alt="Beauty Product">
+
+    </div>
+
+  </section>
+
+  <!-- Products Section -->
+
+  <section class="products" id="products">
+
+    <h2>Featured Products</h2>
+
+    <div class="product-container">
+
+      <div class="card">
+        <img
+          src="C:\Users\kashi\Downloads\WhatsApp Image 2026-05-16 at 8.26.03 PM.jpeg"
+          alt="">
+        <h3>Hydrating Serum</h3>
+        <p class="price">Rs. 3,499</p>
+        <p class="description">
+          Deeply hydrates and refreshes your skin for a radiant glow.
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="C:\Users\kashi\Downloads\WhatsApp Image 2026-05-16 at 8.26.03 PM (1).jpeg"
+          alt="">
+        <h3>Rose Lip Gloss</h3>
+        <p class="price">Rs. 1,799</p>
+        <p class="description">
+          Gives your lips a smooth glossy finish with a soft rose tint.
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="C:\Users\kashi\Downloads\WhatsApp Image 2026-05-16 at 8.26.03 PM (2).jpeg"
+          alt="">
+        <h3>Glow Moisturizer</h3>
+        <p class="price">Rs. 4,250</p>
+        <p class="description">
+          Lightweight moisturizer designed for all-day nourishment.
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="C:\Users\kashi\Downloads\WhatsApp Image 2026-05-16 at 8.34.30 PM.jpeg"
+          alt="">
+        <h3>Vitamin C Cleanser</h3>
+        <p class="price">Rs. 2,899</p>
+        <p class="description">
+          Brightens dull skin and removes impurities gently.
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="C:\Users\kashi\Downloads\WhatsApp Image 2026-05-16 at 8.33.04 PM.jpeg"
+          alt="">
+        <h3>Matte Foundation</h3>
+        <p class="price">Rs. 5,199</p>
+        <p class="description">
+          Full coverage foundation with a natural matte finish.
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="C:\Users\kashi\Downloads\WhatsApp Image 2026-05-16 at 8.33.04 PM (1).jpeg"
+          alt="">
+        <h3>Soft Blush Palette</h3>
+        <p class="price">Rs. 2,499</p>
+        <p class="description">
+          Adds a soft rosy touch to your makeup look instantly.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="view-more">
+        <button>View More Products</button>
+    </div>
+
+  </section>
+
+  <!-- About Section -->
+
+  <section class="about" id="about">
+
+    <div class="about-content">
+
+      <h2>About Our Brand</h2>
+
+      <p>
+        At GlowMuse, we believe beauty begins with healthy skin.
+        Our products are cruelty-free, skin-friendly, and made
+        with carefully selected natural ingredients to help
+        you feel radiant every day.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- Reviews Section -->
+
+  <section class="reviews" id="reviews">
+
+    <h2>Customer Reviews</h2>
+
+    <div class="review-container">
+
+      <div class="review-card">
+        <h3>⭐⭐⭐⭐⭐</h3>
+        <p>"Absolutely love the moisturizer. My skin feels so soft!"</p>
+        <span>- Sarah</span>
+      </div>
+
+      <div class="review-card">
+        <h3>⭐⭐⭐⭐⭐</h3>
+        <p>"The packaging and quality are both amazing."</p>
+        <span>- Emma</span>
+      </div>
+
+      <div class="review-card">
+        <h3>⭐⭐⭐⭐⭐</h3>
+        <p>"GlowMuse products became part of my daily routine."</p>
+        <span>- Olivia</span>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Newsletter -->
+
+  <section class="newsletter">
+
+    <h2>Join Our Newsletter</h2>
+
+    <p>
+      Get beauty tips and exclusive offers directly in your inbox.
+    </p>
+
+    <div class="newsletter-box">
+
+      <input type="email" placeholder="Enter your email">
+
+      <button onclick="subscribe()">
+        Subscribe
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="contact">
+
+    <h3>GlowMuse Beauty</h3>
+
+    <p>Email: glowmuse@gmail.com</p>
+
+    <p>Instagram: @glowmusebeauty</p>
+
+    <p class="copyright">
+      © 2026 GlowMuse. All Rights Reserved.
+    </p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
